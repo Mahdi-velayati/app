@@ -1,1 +1,14 @@
-
+[
+  {
+    "عکس": "https://s20.picofile.com/file/8444123734/Screenshot_%DB%B2%DB%B0%DB%B2%DB%B1%DB%B1%DB%B1%DB%B2%DB%B1_%DB%B1%DB%B2%DB%B1%DB%B2%DB%B1%DB%B0_.jpg",
+    "کد": "/* Your code generate */\n{\nandroid.graphics.drawable.GradientDrawable SketchUi \u003d new android.graphics.drawable.GradientDrawable();\nSketchUi.setColor(0xFFFF1B00);\nfloat lt \u003d getDip(60);\nfloat rt \u003d getDip(250);\nfloat rb \u003d getDip(47);\nfloat lb \u003d getDip(27);\nSketchUi.setCornerRadii(new float[]{\n\tlt,lt,rt ,rt,rb,rb ,lb,lb });\nvl.setElevation(getDip(30));\nvl.setBackground(SketchUi);\n}"
+  },
+  {
+    "عکس": "https://s20.picofile.com/file/8444123792/Screenshot_%DB%B2%DB%B0%DB%B2%DB%B1%DB%B1%DB%B1%DB%B2%DB%B1_%DB%B1%DB%B4%DB%B5%DB%B1%DB%B1%DB%B2.jpg",
+    "کد": "{\nandroid.graphics.drawable.GradientDrawable SketchUi \u003d new android.graphics.drawable.GradientDrawable();\nint d \u003d (int) getApplicationContext().getResources().getDisplayMetrics().density;\nint clrs [] \u003d {0xFF4CAF50,0xFFFFFFFF,0xFFF44336};\nSketchUi\u003d new android.graphics.drawable.GradientDrawable(android.graphics.drawable.GradientDrawable.Orientation.TOP_BOTTOM, clrs);\nSketchUi.setCornerRadius(d*21);\nvl.setElevation(d*7);\nandroid.graphics.drawable.RippleDrawable SketchUiRD \u003d new android.graphics.drawable.RippleDrawable(new android.content.res.ColorStateList(new int[][]{new int[]{}}, new int[]{0xFFFFFFFF}), SketchUi, null);\nvl.setBackground(SketchUiRD);\nvl.setClickable(true);\n}"
+  },
+  {
+    "عکس": "https://s20.picofile.com/file/8444123850/Screenshot_%DB%B2%DB%B0%DB%B2%DB%B1%DB%B1%DB%B1%DB%B2%DB%B1_%DB%B1%DB%B4%DB%B5%DB%B7%DB%B5%DB%B2.jpg",
+    "کد": "{\nandroid.graphics.drawable.GradientDrawable SketchUi \u003d new android.graphics.drawable.GradientDrawable();\nint d \u003d (int) getApplicationContext().getResources().getDisplayMetrics().density;\nint clrs [] \u003d {0xFF4CAF50,0xFFFFFFFF,0xFFF44336};\nSketchUi\u003d new android.graphics.drawable.GradientDrawable(android.graphics.drawable.GradientDrawable.Orientation.TOP_BOTTOM, clrs);\nSketchUi.setCornerRadii(new float[]{\nd*340,d*340,d*340 ,d*340,d*0,d*0 ,d*0,d*0});\nvl.setElevation(d*7);\nandroid.graphics.drawable.RippleDrawable SketchUiRD \u003d new android.graphics.drawable.RippleDrawable(new android.content.res.ColorStateList(new int[][]{new int[]{}}, new int[]{0xFFFFFFFF}), SketchUi, null);\nvl.setBackground(SketchUiRD);\nvl.setClickable(true);\n}"
+  }
+]

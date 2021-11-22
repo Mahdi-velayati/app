@@ -1,1 +1,10 @@
-
+[
+  {
+    "true": "false",
+    "ver": "1",
+    "title": "آپدیت جدید",
+    "messages": "چه چیز هایی جدید است؟\n●\n●\n●\n●\n●\n●\n●\n●\n●\n●\n●\n●\n●\n●\n●",
+    "path": "view-learn/update",
+    "link": "viewlearn.ineu.ir/update"
+  }
+]

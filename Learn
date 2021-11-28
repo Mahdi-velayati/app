@@ -1,64 +1,6 @@
 [
   {
     "name": "اشتراک گذاری برنامه",
-    "code": "کد ۱
-}
-private void shareApplication() { 
-    android.content.pm.ApplicationInfo app = 
-    getApplicationContext().getApplicationInfo(); 
-    String filePath = app.sourceDir;
-    Intent intent = new Intent(Intent.ACTION_SEND); 
-    intent.setType("*/*"); 
-    java.io.File originalApk = new java.io.File(filePath); 
-    try {  
-     java.io.File tempFile = new java.io.File(getExternalCacheDir() + "/ExtractedApk"); 
-      if (!tempFile.isDirectory()) 
-      if (!tempFile.mkdirs()) 
-      return; 
-      tempFile = new java.io.File(tempFile.getPath() + "/" + 
-      "vl_learn.apk");
-      if (!tempFile.exists()) 
-       {
-       try{
-        if (!tempFile.createNewFile()) { 
-         return; }
-        }
-       catch (java.io.IOException e){} 
-       } 
-      java.io.InputStream in = new java.io.FileInputStream (originalApk);
-      java.io.OutputStream out = new java.io.FileOutputStream(tempFile);
-      byte[] buf = new byte[1024];
-      int len; 
-      while ((len = in.read(buf)) > 0) { 
-        out.write(buf, 0, len); 
-      } 
-      in.close(); 
-      out.close(); 
-      intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(tempFile));
-      startActivity(Intent.createChooser(intent, "Share app via"));
-    } 
-    catch (java.io.IOException e) 
-    { showMessage(e.toString()); 
-    } 
-
-  }
-{
-کد ۲
-shareApplication();
-کد ۳
-StrictMode.VmPolicy.Builder builder = 
-  new StrictMode.VmPolicy.Builder(); 
-  StrictMode.setVmPolicy(builder.build());
-  if(Build.VERSION.SDK_INT>=24){ 
-	      try{
-		    java.lang.reflect.Method m = 
-		          StrictMode.class.getMethod(
-		    "disableDeathOnFileUriExposure"); 
-		          m.invoke(null); 
-		    }
-	   catch(Exception e){ 
-		    showMessage(e.toString()); 
-		    } 
-	  }"
+    "code": "کد"
     "link": "https://www.aparat.com/video/video/embed/videohash/DeRJ5/vt/frame" }
 ]
